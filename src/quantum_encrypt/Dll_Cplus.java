@@ -9,6 +9,7 @@ public class Dll_Cplus {
         }
     }
 
+
     //Î»ÊýÑ¡Ôñ
     public native void keyInstall(int select);
 

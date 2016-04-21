@@ -17,6 +17,7 @@ public class document_dissect extends JFrame {
 	JButton jb_back,menu;
 	
 	JLabel jl;
+	//fuck test
 	public document_dissect(){
         setLayout(new GridBagLayout());
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
