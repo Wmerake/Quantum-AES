@@ -20,7 +20,6 @@ public class main_interface extends JFrame {
 		this.setLocation((screenSize.width-frameSize.width)/3,(screenSize.height-frameSize.height)/8);
 		this.setLayout(null);
 		setSize(358,583);
-
 		back = new JLabel();menu = new JButton();
 		jb_document_encrypt = new JButton();jb_document_dissect = new JButton();	//文件加密解密
 		jl_document_encrypt = new JLabel("文件加密");jl_document_dissect = new JLabel("文件解密");

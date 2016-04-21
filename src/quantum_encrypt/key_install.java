@@ -26,7 +26,7 @@ public class key_install extends JFrame {
 		back.setBounds(3, 3, 55, 55);	rank.setBounds(87, 211, 15, 15);
 		back.setBorder(null);rank.setBorder(null);
 		back.setContentAreaFilled (false);rank.setContentAreaFilled (false);
-		
+
 		jl.add(back);jl.add(rank);
 		this.add(jl);
 

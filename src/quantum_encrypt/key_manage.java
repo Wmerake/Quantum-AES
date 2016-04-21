@@ -22,6 +22,7 @@ public class key_manage extends JFrame {
 		jl.setBounds(0, 0, 358, 583);jl.setIcon(icon);
 		
 		menu = new JLabel();back =new JButton();
+
 		
 		menu.setBounds(295, 3, 55, 55);menu.setIcon(new ImageIcon("D:\\Quantum\\Quantum\\src\\null.png"));
 		back.setBounds(3, 3, 55, 55);
@@ -41,7 +42,7 @@ public class key_manage extends JFrame {
         			new document_encrypt();
         		else if(base=="document_dissect")
         			new document_dissect();
-        		else if(base=="text_encrypt")
+        		else if(base=="text_encryp.")
         			new text_encrypt();
         		else if(base=="text_dissect")
         			new text_dissect();
