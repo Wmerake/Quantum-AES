@@ -10,19 +10,19 @@ public class Dll_Cplus {
     }
 
 
-    //Î»ÊıÑ¡Ôñ
+    //ä½æ•°é€‰æ‹©
     public native void keyInstall(int select);
 
-    //ÊµÊ±¼ÓÃÜ  µØÖ·£º  E:\Á¿×Ó¼ÓÃÜÏîÄ¿\Quantum\bin\txtwork.txt
-    public native String txtEncrypt(String txt); //²âÊÔ
+    //å®æ—¶åŠ å¯†  åœ°å€ï¼š  E:\é‡å­åŠ å¯†é¡¹ç›®\Quantum\bin\txtwork.txt
+    public native String txtEncrypt(String txt); //æµ‹è¯•
 
-    //ÊµÊ±½âÃÜ
+    //å®æ—¶è§£å¯†
     public native String txtDissect(String txt);
 
-    //¼ÓÃÜ  pathÎªÎÄ¼şµØÖ·£¬ÔÚÆäËû.javaÀàµ÷ÓÃ±¾.javaÀàÖĞµÄº¯ÊıÊ±´«²Î
+    //åŠ å¯†  pathä¸ºæ–‡ä»¶åœ°å€ï¼Œåœ¨å…¶ä»–.javaç±»è°ƒç”¨æœ¬.javaç±»ä¸­çš„å‡½æ•°æ—¶ä¼ å‚
     public native void Encrypt(String Path);
 
-    //½âÃÜ
+    //è§£å¯† 
     public native void Dissect(String Path);
     //test
 }
